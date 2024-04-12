@@ -20,6 +20,9 @@ PRODUCT_PACKAGES += \
     SystemUIResMondrian \
     WifiResMondrian
 
+# Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.xiaomi

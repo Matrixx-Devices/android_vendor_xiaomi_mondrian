@@ -1,2 +1,5 @@
- Xiaomi
-ro.product.mod_device=mondrian_global
+# Camera
+ro.miui.notch=1
+
+# Xiaomi
+ro.product.mod_device=mondrian
